@@ -48,6 +48,7 @@ The app will be running at `http://localhost:3000`. You can open this URL in you
 3. In the input field, enter the number you want to convert. As you type or make selections, the converted value will be displayed in real-time.
 
 ![Alt text](image-5.png)
+
 4. Repeat the process to convert more numbers or change the numerical systems as needed.
 
 ## Technologies Used
