@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  .converter-container {
+    width: 400px; /* Increased width */
+    margin: 0 auto;
+    padding: 30px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Slightly rounded corners */
+    background-color: #7d0088; /* Different background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0D98BA; /* Electric Blue */
+  }
+  
+  .select-label, .input-label {
+    display: flex;
+    align-items: center; /* Vertically align label and input */
+    margin: 20px 0; /* Increased margin for more spacing */
+    color: #FF5733; /* Vibrant Red */
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .convert-button {
+    display: block;
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #FFC300; /* Bright Yellow */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .result-value {
+    margin-top: 10px;
+    color: #14A76C; /* Green */
+  }
+  
