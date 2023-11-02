@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Converter.css';
 
 class Converter extends Component {
   constructor(props) {

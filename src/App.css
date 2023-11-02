@@ -1,39 +1,48 @@
 body {
-  background-color: #c300ff; /* Set the background color for the entire application to pink */
+  background-color: #c300ff;
 }
 
 .converter-container {
-  width: 400px; /* Increased width */
+  width: 400px;
   margin: 0 auto;
-  padding: 30px; /* Increased padding */
+  padding: 30px;
   border: 1px solid #ccc;
-  border-radius: 10px; /* Slightly rounded corners */
-  background-color: #42065a; /* Different background color for converter-container */
+  border-radius: 10px;
+  background-color: #42065a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.custom-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  margin-top: 20px; 
+}
+
+
 h1 {
   text-align: center;
-  color: #0D98BA; /* Electric Blue */
+  color: #0D98BA;
 }
 
 .select-label, .input-label {
   display: flex;
-  align-items: center; /* Vertically align label and input */
-  margin: 20px 0; /* Increased margin for more spacing */
-  color: #FF5733; /* Vibrant Red */
+  align-items: center;
+  margin: 20px 0;
+  color: #FF5733;
 }
 
 .select {
   width: 100%;
-  padding: 10px; /* Increased padding */
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 .input {
   width: 100%;
-  padding: 10px; /* Increased padding */
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -41,8 +50,8 @@ h1 {
 .convert-button {
   display: block;
   width: 100%;
-  padding: 12px; /* Increased padding */
-  background-color: #FFC300; /* Bright Yellow */
+  padding: 12px;
+  background-color: #FFC300;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -52,5 +61,5 @@ h1 {
 
 .result-value {
   margin-top: 10px;
-  color: #14A76C; /* Green */
+  color: #14A76C;
 }
