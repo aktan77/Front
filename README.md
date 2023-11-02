@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# React Number Converter App Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The React Number Converter App is a simple yet powerful web application that allows users to convert numbers between different numerical systems, including Decimal, Octal, Binary, and Hexadecimal. This readme file provides essential information about the app, how to set it up, and how to use it.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Conversion between Decimal, Octal, Binary, and Hexadecimal numeral systems.
+- User-friendly interface with two dropdown bars for selecting the source and target numerical systems.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the React Number Converter App on your local machine, follow these steps:
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js and npm (Node Package Manager) should be installed on your system.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/aktan77/Front.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the project dependencies:
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-### `npm run eject`
+The app will be running at `http://localhost:3000`. You can open this URL in your web browser to use the React Number Converter.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Upon opening the app, you will see two dropdown bars, one labeled "Input System" and the other labeled "Output System." These dropdowns allow you to select the source and target numerical systems for conversion.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Alt text](image-3.png)
+![Alt text](image-4.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Select the source and target numerical systems from the dropdowns.
 
-## Learn More
+3. In the input field, enter the number you want to convert. As you type or make selections, the converted value will be displayed in real-time.
+![Alt text](image-5.png)
+4. Repeat the process to convert more numbers or change the numerical systems as needed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React: JavaScript library for building user interfaces.
+- HTML and CSS: Markup and styling of the application.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions to this project are welcome. If you'd like to enhance or add new features, please follow these steps:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add a new feature'`.
+4. Push your changes to the forked repository: `git push origin feature-name`.
+5. Create a Pull Request on the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+If you have any questions, suggestions, or issues, feel free to contact the project maintainer at aktan.asankulov@iaau.edu.kg.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using the React Number Converter App! We hope it serves your needs effectively.
