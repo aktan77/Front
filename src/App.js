@@ -1,7 +1,7 @@
 import React from 'react';
 import BinaryDecimalConverter from './companents/Converter'; // Adjust the path to match the actual location of your component
-import './App.css'
-import logo from "./logo.png"
+import './App.css';
+import logo from "./logo.png";
 import './logo-animation.css';
 
 function App() {
